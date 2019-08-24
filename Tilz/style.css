@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900,400italic,900italic);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	color: #8c9697;
+}
+
+a,a:hover,a:visited,a:active,a:focus { text-decoration: none; color: #8c9697;}
+
+section {
+	width: 100%;
+}
+
+/* SECTIONS
+==============================================*/
+
+.section-title { 
+	text-shadow: 1px 2px 0 rgba(0,0,0,0.2);
+	font-family: 'Chivo', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 40px;
+	margin: 2vh auto;
+	padding-top: 50px;
+}
+
+#demo > p {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+footer {
+	font-family: sans-serif;
+	padding: 50px;
+}
+
+footer > a {
+	color: #5c6667 !important;
+	font-weight: bold;
+}
